@@ -29,7 +29,7 @@ function renderBook(books) {
     <img src="${i.imageLink}" class="card-img-top" alt="books">
     </button>
         <div class="card-body">
-        <h4 class="card-text">Name: ${i.author}</h4>
+        <h4 class="card-text">Author: ${i.author}</h4>
         <h4 class="card-text">Name: ${i.title}</h4>
         <h5 class="card-title">Languages: ${i.language}</h5>
         <h6 class="card-title">Years: ${i.year}</h6>
